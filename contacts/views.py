@@ -35,7 +35,6 @@ def contact(request):
 
 def delete_contact(request,contact_id):
     contact = get_object_or_404(Contact,pk=contact_id)
-    print(contact_id)
     contact.delete()
     return redirect('accounts:dashboard')
 

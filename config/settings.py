@@ -48,7 +48,7 @@ APPLICATION_APPS = [
      'accounts.apps.AccountsConfig',
      'contacts.apps.ContactsConfig',  
 ]
-THIRD_PARTY_APPS = [ "debug_toolbar", "widget_tweaks" ]
+THIRD_PARTY_APPS = [ "debug_toolbar", "widget_tweaks", "taggit" ]
 
 INSTALLED_APPS = DJANGO_APPS + APPLICATION_APPS + THIRD_PARTY_APPS
 
